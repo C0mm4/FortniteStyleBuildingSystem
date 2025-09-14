@@ -22,7 +22,7 @@
 | **B** | BuildMode           | 건축 모드 On/Off |
 | **1** | BuildMode-Floor           | 바닥 건축 모드 |
 | **2** | BuildMode-Wall           | 벽 건축 모드 |
-| **ㄹ** | Try Build           | 건축물 건축 |
+| **F** | Try Build           | 건축물 건축 |
 
 ---
 
