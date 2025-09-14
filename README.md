@@ -9,7 +9,24 @@
 ### ReadMe 에서의 데모 GIF은 실제 프로젝트에서 사용된 예시를 사용 
 ---
 
-## 2. 적용 방법 (Usage / Setup)  
+## 2. 키 입력 (Key Bindings)  
+
+| 키(Key) | 동작(Action)        | 설명(Description)             |
+|---------|---------------------|--------------------------------|
+| **W**   | Move Forward        | 캐릭터를 앞쪽으로 이동 |
+| **A**   | Move Left           | 캐릭터를 왼쪽으로 이동 |
+| **S**   | Move Backward       | 캐릭터를 뒤쪽으로 이동 |
+| **D**   | Move Right          | 캐릭터를 오른쪽으로 이동 |
+| **Mouse**   | Camera Rotation          | 캐릭터가 보는 방향 조절 |
+| **Space** | Jump               | 캐릭터가 점프 |
+| **B** | BuildMode           | 건축 모드 On/Off |
+| **1** | BuildMode-Floor           | 바닥 건축 모드 |
+| **2** | BuildMode-Wall           | 벽 건축 모드 |
+| **ㄹ** | Try Build           | 건축물 건축 |
+
+---
+
+## 3. 적용 방법 (Usage / Setup)  
 ### GameObject Inspector 연결 방식  
 1. Player 오브젝트에 Player Input, Player, PlayerController, BuildingMode 연결
 2. Player Input의 Behavior를 Invoke Unity Event로 설정 후 Action 및 Map 설정
@@ -30,7 +47,7 @@
 
 ---
 
-## 3. 주요 기능 (Features)  
+## 4. 주요 기능 (Features)  
 -  B 키를 누르면 건축 모드 On/Off 토글
 -  건축 모드 진입 시 1, 2번을 눌러 건축할 객체 선택 (바닥, 벽)
 -  플레이어 이동과 마우스로 카메라를 조작하여 건축하고자 하는 영역 지정
