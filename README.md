@@ -6,6 +6,7 @@
 - **의존성**: Unity new Input System - 플레이어 이동 및 건축 입력 관련
 
 ** 해당 코드는 데모만을 담은 내용이며, 실제 프로젝트에 적용된 내용은 https://github.com/khh7052/TeamSurvival 에서 확인 가능 **
+
 ** ReadMe 에서의 데모 GIF은 실제 프로젝트에서 사용된 예시를 사용 **
 ---
 
